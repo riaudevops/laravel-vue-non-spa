@@ -14,6 +14,8 @@
 * Sesuai nama database, username, password dan app_url
 * Buat branch dengan nama masing-masing
 * Bekerja pada branch masing-masing sehingga tidak mengganggu branch master
+* Run command `php artisan migrate`
+* Run command `php artisan db:seed`
 
 ## Aturan penulisan
 1. Nama controller di menggunakan CamelCase dan inherit terhadap class `Controller`. Contoh: IndexController, KaryawanController
