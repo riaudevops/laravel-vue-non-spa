@@ -161,18 +161,17 @@ use \Illuminate\Support\Facades\Auth;
                     </a>
                 </li>
             @endif
-
         </ul>
         <!-- LOGO -->
         <div class="logo-box">
             <a href="{{route('home')}}" class="logo text-center">
                 <span class="logo-lg">
-                    <img src="{{asset('images/logo-inverse.png')}}" alt="" height="32">
-                {{--  <span class="logo-lg-text-light">OPAC</span>--}}
+                    <img src="{{asset('images/logo.png')}}" alt="" height="40">
+                  <span class="logo-lg-text-light">Digistlab</span>
                 </span>
                 <span class="logo-sm">
-                    <!-- <span class="logo-sm-text-dark">U</span> -->
-                    <img src="{{asset('images/logo-black.png')}}" alt="" height="24">
+{{--                    <span class="logo-sm-text-dark">Digistlab</span>--}}
+                    <img src="{{asset('images/logo.png')}}" alt="" height="24">
                 </span>
             </a>
         </div>
